@@ -19,10 +19,6 @@ public class Produto {
     }
     
     public void setPreco(double preco){
-        if(preco >= 0){
             this.preco = preco;
-        }else{
-            System.out.println("Preço invalido!");
-        }
     }
 }
